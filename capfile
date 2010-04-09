@@ -12,7 +12,7 @@ set :domain, '174.143.236.205:30000'
 
 # set :repository, "file://#{File.expand_path('.')}"
 
- set :repository,  "git://github.com/thinkbohemian/WordpressDeploy-Primary.git"
+ set :repository,  "git://github.com/thinkbohemian/Wordpress-For-Deployment.git"
 
 
 server "#{domain}", :app, :web, :db, :primary => true

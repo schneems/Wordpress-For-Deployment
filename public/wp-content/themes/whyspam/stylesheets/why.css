@@ -2,7 +2,26 @@
 	http://localhost:3000/stylesheets/screen.css?1256238150
 	http://localhost/~richardschneeman/wp-content/themes/test/stylesheets/why.css
 	http://blog.whyspam.me/wp-content/themes/test/stylesheets/why.css
+	http://localhost/public/wp-content/themes/whyspam/stylesheets/why.css
 */
+
+
+.alignright {
+	float: right;
+	margin-bottom: 1em;
+	margin-left: 1em;
+}
+
+.alignleft {
+	float: left;
+	margin-bottom: 1em;
+	margin-right: 1em;
+}
+
+.hentry {
+	margin-left: 5px;
+}
+
 
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
   margin: 0;
