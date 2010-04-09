@@ -6,6 +6,11 @@
 */
 
 
+.hentry a, 
+.hentry h2 {
+	color: #51555C;
+	font-weight: bold;
+}
 .alignright {
 	float: right;
 	margin-bottom: 1em;
