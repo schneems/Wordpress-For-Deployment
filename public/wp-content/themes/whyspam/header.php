@@ -25,8 +25,7 @@
 <link href="<?php bloginfo('stylesheet_directory'); ?>/stylesheets/jquery-ui.css" media="screen, projection" rel="stylesheet" type="text/css" /> 
 
 
-
-<link href="<?php bloginfo('stylesheet_directory'); ?>/stylesheets/why.css" media="screen, projection" rel="stylesheet" type="text/css" /> 
+<link href="<?php bloginfo('stylesheet_directory'); ?>/stylesheets/why-wordpress.css" media="screen, projection" rel="stylesheet" type="text/css" /> 
 
 
 <link rel="icon" type="image/vnd.microsoft.icon" href="<?php bloginfo('stylesheet_directory'); ?>/images/favicon.ico" /> 
