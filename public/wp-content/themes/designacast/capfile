@@ -6,17 +6,13 @@ load 'deploy'
 # You need to fill in the 2 vars below
 set :user,    "demo"
 
-
-
-#set :application,  "blog.whyspam.me"
-
-set :application,  "designacast.com"
+set :application,  "blog.whyspam.me"
 set :domain, '174.143.236.205:30000'  
 
 
-# set :repository, "file://#{File.expand_path('.')}"
+ set :repository, "file://#{File.expand_path('.')}"
 
- set :repository,  "git://github.com/thinkbohemian/Wordpress-For-Deployment.git"
+#set :repository,  "git://github.com/thinkbohemian/WhySpam.git"
 
 
 server "#{domain}", :app, :web, :db, :primary => true
@@ -54,11 +50,10 @@ namespace :deploy do
   task :after_deploy do
     cleanup
   end
- 
-  task :after_symlink do
-    run "ln -nfs #{shared_path}/wp-content/uploads/ #{current_path}/public/wp-content/uploads"
-    run "ln -nfs #{shared_path}/wp-config.php #{current_path}/public/wp-config.php"
-    
-  end
+
+ # task :after_symlink do
+ #   run "ln -nfs #{shared_path}/uploads/" \
+ #     " #{current_path}/public/wp-content/uploads"
+ # end
     
 end
