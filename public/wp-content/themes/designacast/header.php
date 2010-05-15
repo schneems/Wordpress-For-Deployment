@@ -26,7 +26,7 @@
 					Let your Customers Love You
 			</div>
 			<div class = "header-right">
-					<a href = "#" class = "greenButton"><table><td>Get a Free Quote</td	></table></a>
+					<a href = "#" id = "quote" class = "greenButton "><table><td>Get a Free Quote</td	></table></a>
 			</div>
 	</div>
 	<div class = "greenBar">

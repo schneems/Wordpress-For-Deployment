@@ -166,7 +166,7 @@ margin-top: -6px;
 	color: #7c7c7e;
 	margin-top: 20px;
 	margin:  25px 0 0 10px;
-	font-size: 1.5em;
+	font-size: 1.2em;
 	font-weight: bold;
 }
 
@@ -195,16 +195,21 @@ hr {
 
 
 .playBackground {
-	margin-bottom: -30px;
-	min-height: 400px;
+	margin: 0;
+	margin-top: -50px;
 	background: url(../images/playBackground.jpg) no-repeat scroll 60px 50px;
 }
 
 .navigation {
+	width: 210px;
 	margin-top: 30px;
 	border-right: 2px solid #939393;
 }
 
 pre {
 	overflow: auto;
+}
+
+#quote {
+	font-size: 1.38em;
 }

@@ -10,13 +10,6 @@ get_header();
 
 
 
-
-
-
-
-
-
-
 	<div id="" class="widecolumn span-18" role="main">
 
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
