@@ -213,3 +213,26 @@ pre {
 #quote {
 	font-size: 1.38em;
 }
+
+.entry {
+	margin: 14px 0 0 0;
+}
+
+.entry .wpcf7 input {
+	height: 2em;
+	
+}
+
+.entry .wpcf7  textarea {
+	height: 14em;
+}
+
+.entry .wpcf7 {
+	margin: 0 auto 0 5em;
+}
+
+.wpcf7 p {
+	
+	margin: 0;
+	font-weight: bold;
+}
