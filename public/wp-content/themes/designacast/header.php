@@ -19,14 +19,16 @@
 <body>			
 	<div class = "header center">
 		<div class = "header-left">
+			<a href = "<?php bloginfo('url'); ?>">
 			<img src = "<?php bloginfo('stylesheet_directory'); ?>/images/logo.jpg" />
+			</a>
 		</div>
 
 			<div class = "header-middle">
 					Let your Customers Love You
 			</div>
 			<div class = "header-right">
-					<a href = "#" id = "quote" class = "greenButton "><table><td>Get a Free Quote</td	></table></a>
+					<a href = "<?php bloginfo('url'); ?>/index.php/contact/" id = "quote" class = "greenButton "><table><td>Get a Free Quote</td	></table></a>
 			</div>
 	</div>
 	<div class = "greenBar">

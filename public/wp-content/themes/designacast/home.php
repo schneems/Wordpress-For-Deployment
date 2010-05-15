@@ -13,7 +13,7 @@ Template Name: home
 <div class="container clearfix">  
 	<div class = "main">
 		<div class = "span-6 navigation" >
-			<a class = "span-6 nav nav-button" href = "#">
+			<a class = "span-6 nav nav-button" href = "<?php bloginfo('url'); ?>/index.php/contact/">
 				<div class = "span-2 film">
 					&nbsp <img src = "<?php bloginfo('stylesheet_directory'); ?>/images/greenFilm.png" />	
 				</div>
@@ -21,7 +21,7 @@ Template Name: home
 				
 			</a>
 			
-			<a class = "span-6 nav nav-button" href = "#">
+			<a class = "span-6 nav nav-button" href = "<?php bloginfo('url'); ?>/index.php/contact/">
 				<div class = "span-2">
 					&nbsp <img src = "<?php bloginfo('stylesheet_directory'); ?>/images/greenQuestion.png" />	
 				</div>
@@ -29,7 +29,7 @@ Template Name: home
 				
 			</a>
 			
-			<a class = "span-6  nav nav-button" href = "#">
+			<a class = "span-6  nav nav-button" href = "<?php bloginfo('url'); ?>/index.php/contact/">
 				<div class = "span-2">
 					&nbsp <img src = "<?php bloginfo('stylesheet_directory'); ?>/images/greenMoney.png" />	
 				</div>
@@ -37,7 +37,7 @@ Template Name: home
 				
 			</a>
 			
-			<a class = "span-6 nav nav-button" href = "#">
+			<a class = "span-6 nav nav-button" href = "<?php bloginfo('url'); ?>/index.php/contact/">
 				<div class = "span-2 mail">
 					&nbsp <img src = "<?php bloginfo('stylesheet_directory'); ?>/images/greenMail.png" />	
 				</div>
