@@ -31,7 +31,9 @@
 			if you don't like the product, you get your money back
 		</div>
 		<div class = "footer-right">
-				<a href = "<?php bloginfo('url'); ?>/index.php/contact/" class = "greenButton"><table><td>Ask About our<br />Money Back Guarantee</td></table></a>
+				<a href = "<?php bloginfo('url'); ?>/index.php/contact/" class = "greenButton" >
+					<table><td>Ask About our<br />Money Back Guarantee</td></table>
+				</a>
 		</div>
 		<br /><br />
 		<p class = "copyright">&copy;2010 DesignaCast.com</p></div>

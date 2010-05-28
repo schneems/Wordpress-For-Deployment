@@ -15,6 +15,8 @@
 	<!--[if lt IE 8]><link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/stylesheets/ie.css" type="text/css" media="screen, projection"><![endif]-->
 	
 	<link href="<?php bloginfo('stylesheet_directory'); ?>/stylesheets/designacast.css" rel="stylesheet" type="text/css">
+	<link rel = "shortcut icon" href= "<?php bloginfo('template_url'); ?>/favicon.ico" >
+	
 </head>
 <body>			
 	<div class = "header center">

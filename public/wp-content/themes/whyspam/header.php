@@ -16,6 +16,9 @@
 <head profile="http://gmpg.org/xfn/11">
 <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 
+<link rel = "shortcut icon" href= "<?php bloginfo('template_url'); ?>/favicon.ico" >
+
+
 <title><?php wp_title('&laquo;', true, 'right'); ?> <?php bloginfo('name'); ?></title>
 
 <!--
