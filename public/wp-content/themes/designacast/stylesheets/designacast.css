@@ -1,3 +1,7 @@
+/* @override http://www.designacast.com/wp-content/themes/designacast/stylesheets/designacast.css */
+
+/* @override http://www.designacast.com/wp-content/themes/designacast/stylesheets/designacast.css */
+
 /* @override http://localhost/public/wp-content/themes/designacast/stylesheets/designacast.css */
 
 .center {
@@ -90,8 +94,24 @@ width: 25%;
 	width: 196px;
 	background: url(../images/greenButton.png) no-repeat;
 	text-decoration: none;
+	position: relative;
 }
 
+.alignVblock {
+display: block;
+position:absolute;
+top:0;
+bottom:0;
+margin:auto;
+
+}
+
+
+.moneyBackGuarantee {
+height:2.2em;
+color: white;
+font-size: 1.12em;
+}
 
 
 
